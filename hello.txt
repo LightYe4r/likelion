@@ -1,5 +1,5 @@
-안녕하세요!
-sdfsdsdfsdfsdf
-sdfsdsdfsdfsdf
-sdfsdsdfsdfsdfsdfsdfsdf
-sdfsdsdfsdfsdfsdfsdfsdf
+<<<<<<< HEAD
+안녕하세요 ICT융합학부 23학번 황병주입니다🍀
+=======
+안녕하세요 소프트웨어학부 18학번 노하준입니다!!
+>>>>>>> d649244e9bf3532d89bbee8669c9f4098c858a0c
