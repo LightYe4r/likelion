@@ -1,0 +1,83 @@
+@import "reset.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #f1f1f2;
+}
+header {
+  top: 0%;
+  height: 173px;
+  width: 100vw;
+  position: fixed;
+}
+#upperbar {
+  width: 100%;
+  height: 35px;
+  background-color: #ffdcb2;
+}
+#upperbarStyle {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto 0;
+}
+#linkSort {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-center;
+  align-items: center;
+  gap: 40px;
+  margin-left: 80%;
+}
+#headerContents {
+  background-color: white;
+  width: 100%;
+  height: 80%;
+}
+#contentStyle {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto 0;
+}
+.flexRow {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.noneDeco {
+  text-decoration: none;
+}
+.fontBig {
+  font-family: Noto Sans KR;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #515151;
+  padding: 0 20px;
+}
+.flexRow2 {
+  display: flex;
+  align-items: center;
+}
+.searchBar {
+  display: flex;
+  margin: 20px 0;
+  padding: 10px 20px;
+  opacity: 40%;
+}
+.main {
+  margin: 180px auto 0;
+  top: 180px;
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  padding: 40px;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/priceList.css" />
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@30,200,0,-25""
+    />
+  </head>
+  <body>
+    <header>
+      <div id="upperbar">
+        <div id="upperbarStyle">
+          <div id="linkSort">
+            <a class="noneDeco" href="#" onclick="location.href='signUp.html'"
+              ><span style="color: black">로그인</span></a
+            >
+            <a class="noneDeco" href="#" onclick="location.href='signUp.html'"
+              ><span style="color: black">회원가입</span></a
+            >
+            <a
+              class="noneDeco"
+              href="https://mblogthumb-phinf.pstatic.net/MjAxOTAzMjlfMTA3/MDAxNTUzNzkxNDYxNjI2.9MaI1Mbgb46ZXBhsfkOQKTxk8pJd3srZXhnc_sHgK6Yg.zOYJ6NjM9V__1FNWQyoxhtzi7_9KYwfyOiJggYVzLqwg.JPEG.sssss747/SE-26b1aa23-cf4f-411f-804b-be6debc6d70f.jpg?type=w800"
+              ><span style="color: black">고객센터</span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div id="headerContents">
+        <div id="contentStyle">
+          <div class="flexRow">
+            <a href="#" onclick="location.href='main.html'">
+              <img src="../image/logo.png" alt="방구석레시피로고" />
+            </a>
+            <div id="headerSearch">
+              <span style="color: #cecece">
+                <a
+                  href="#"
+                  class="noneDeco"
+                  onclick="location.href='priceList.html'"
+                  ><span class="fontBig">가격별 레시피</span></a
+                >
+                |
+                <a
+                  href="#"
+                  class="noneDeco"
+                  onclick="location.href='groupBuy.html'"
+                  ><span class="fontBig">식재료 공구하기</span></a
+                >
+              </span>
+            </div>
+          </div>
+          <div class="flexRow2">
+            <a
+              href="#"
+              onclick="location.href='nearYummy.html'"
+              style="padding-right: 30px"
+              ><img src="../image/JMTlogo.png" alt="내 주변 맛집로고"
+            /></a>
+            <div class="searchBar">
+              <img
+                src="../image/search.png"
+                alt="search"
+                width="30px"
+                height="30px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section id="category">
+        <div id="cateTitle">
+          <p>구분</p>
+          <p>종류별</p>
+        </div>
+        <div id="cateList">
+          <div style="word-spacing: 24px">
+            <span class="cateMain">전체</span
+            ><span>한식 양식 일식 중식 기타</span>
+          </div>
+          <div style="word-spacing: 24px">
+            <span class="cateMain">전체</span
+            ><span
+              >밑반찬 메인반찬 국/탕 찌개 면/만두 밥/죽/떡 퓨전 양념/소스/잼
+              샐러드 수프 기타</span
+            >
+          </div>
+        </div>
+      </section>
+      <section id="mainSection">
+        <div id="mainSectionTitle">
+          <div>
+            <span id="mainSectionTitleLarge">가격별 레시피</span>
+            <span id="mainSectionTitleSmall"
+              >레시피의 재료 비용을 계산해 구분했어요.</span
+            >
+          </div>
+          <div id="cateButton">
+            <span id="cateButtonText">인기순</span
+            ><span class="material-symbols-outlined" style="color: #8e8e8e">
+              expand_more
+            </span>
+          </div>
+        </div>
+        <div class="foodList">
+          <div class="foodListSort">
+            <span>3,000원 이하</span>
+            <span class="material-symbols-outlined" style="font-weight: bold">
+              arrow_downward
+            </span>
+          </div>
+          <div class="foodListSection">
+            <div class="showFoodList">
+              <img
+                src="../image/priceListPage/간장계란국수.png"
+                alt="img1"
+                width="400"
+              />
+              <div class="showFoodListInfo">
+                <p class="showFoodListInfoTitle">간장계란국수</p>
+                <p class="showFoodListInfoContent">
+                  입맛 없을 때 쉽고 간편요리 간장국수 레시피!<br />
+                  단짠의 조합이 정말 별미입니다.
+                </p>
+                <div class="ingredients">
+                  <span
+                    class="material-symbols-outlined"
+                    style="font-weight: 700; font-size: 22px"
+                  >
+                    check
+                  </span>
+                  <p>주요 재료 : 국간장, 소면, 계란, 당근, 양파 등</p>
+                </div>
+              </div>
+            </div>
+            <div class="showFoodList">
+              <img
+                src="../image/priceListPage/카레라이스.png"
+                alt="img2"
+                width="400"
+              />
+              <div class="showFoodListInfo">
+                <p class="showFoodListInfoTitle">카레라이스 & 우동</p>
+                <p class="showFoodListInfoContent">
+                  카레가루와 밥, 우동만 있으면 끝!<br />
+                  부드러운 카레라이스 & 우동 만드는 법
+                </p>
+                <div class="ingredients">
+                  <span
+                    class="material-symbols-outlined"
+                    style="font-weight: 700; font-size: 22px"
+                  >
+                    check
+                  </span>
+                  <p>주요 재료 : 카레가루, 우동면, 양파, 우유 등</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="foodListSort" style="margin-top: 50px">
+            <span>10,000원 이하</span
+            ><span class="material-symbols-outlined" style="font-weight: bold">
+              arrow_downward
+            </span>
+          </div>
+          <div class="foodListSection">
+            <div class="showFoodList">
+              <img
+                src="../image/priceListPage/닭볶음탕.png"
+                alt="img1"
+                width="400"
+              />
+              <div class="showFoodListInfo">
+                <p class="showFoodListInfoTitle">닭볶음탕</p>
+                <p class="showFoodListInfoContent">
+                  맵고 짜고 단거! 닭볶음탕 레시피!<br />
+                  단짠의 조합이 정말 별미입니다.
+                </p>
+                <div class="ingredients">
+                  <span
+                    class="material-symbols-outlined"
+                    style="font-weight: 700; font-size: 22px"
+                  >
+                    check
+                  </span>
+                  <p>주요 재료 : 닭볶음탕용 닭, 감자, 당근, 다진 대파 등</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
