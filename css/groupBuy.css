@@ -1,1 +1,32 @@
 @import "main.css";
+
+.priceTag {
+    margin: 10px 0px 10px 0px;
+}
+
+#oneLineIntro {
+    color: black;
+}
+
+#beforePrice {
+    text-decoration: line-through;
+    color: #9b9b9b;
+    margin: 10px 0px 10px 0px;
+}
+#salePoint{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+#afterPrice {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px;
+    padding-right: 0%;
+}
+#priceUnit {
+    margin: 0px;
+}
+#mainSectionTitle {
+    margin: 10px 0px 0px 0px;
+}

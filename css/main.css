@@ -45,6 +45,80 @@ header {
   width: 70%;
   margin: 0 auto 0;
 }
+#category {
+  display: flex;
+  padding-bottom: 30px;
+  border-bottom: 1px #f1f1f2 solid;
+}
+#cateTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-right: 2px solid #cecece;
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #515151;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+#cateList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #515151;
+  word-spacing: 10px;
+}
+#mainSection {
+  padding-top: 45px;
+}
+#mainSectionTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+#mainSectionTitleLarge {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-right: 20px;
+}
+#mainSectionTitleSmall {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9b9b9b;
+}
+#cateButton {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 0.5px #8e8e8e solid;
+  padding: 8px 8px 8px 8px;
+}
+#cateButtonText {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #9b9b9b;
+}
+.cateMain {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration-line: underline;
+  margin-right: 30px;
+  color: #ff891c;
+}
 .flexRow {
   display: flex;
   align-items: center;
@@ -80,4 +154,22 @@ header {
   height: 100%;
   background-color: white;
   padding: 40px;
+}
+#oneLineIntro {
+  margin: 10px 0px 10px 0px;
+  font-size: 15px;
+  color: #9b9b9b;
+}
+#itemTitle {
+  margin: 10px 0px 10px 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#rowListShow {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px 10px 0px;
+}
+#popFoodList {
+  margin: 0px 0px 20px 0px;
 }
