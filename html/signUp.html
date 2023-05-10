@@ -72,8 +72,38 @@
       </div>
     </header>
     <main class="main">
-      <div class="contents">
-        회원가입 페이지 - 여기부터 코드 작성하면 됩니다
+      <div id="infoText">
+        이미 계정이 있나요? <span style="color: #ff891c">로그인</span>
+      </div>
+      <div id="signUpForm">
+        <span id="signUpFormTitle">회원가입</span>
+        <div class="signUpFormList">
+          <span style="color: #515151">이름</span>
+          <input class="signUpFormInput" type="text" />
+        </div>
+        <div class="signUpFormList">
+          <span style="color: #515151">이메일 주소</span>
+          <input class="signUpFormInput" type="email" />
+        </div>
+        <div class="signUpFormList">
+          <span style="color: #515151">비밀번호 만들기</span>
+          <input class="signUpFormInput" type="password" />
+        </div>
+        <div class="signUpFormList">
+          <span style="color: #515151">비밀번호 확인</span>
+          <input class="signUpFormInput" type="password" />
+        </div>
+        <div id="signUpFormAgree">
+          <input type="checkbox" name="my-checkbox" id="opt-in" />
+          <label for="opt-in">
+            <span style="color: #3095f3">이용약관</span>과
+            <span style="color: #3095f3">개인정보취급방침</span>에
+            동의합니다.</label
+          >
+        </div>
+        <a href="#" onclick="location.href='main.html'">
+          <button>가입 완료</button></a
+        >
       </div>
     </main>
   </body>
