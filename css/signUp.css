@@ -1,5 +1,58 @@
 @import "main.css";
 
-.test {
-  color: red;
+#infoText {
+  color: #515151;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+#signUpFormTitle {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+#signUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 70px 0;
+}
+.signUpFormList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 28px 0;
+}
+.signUpFormInput {
+  width: 320px;
+  height: 39px;
+  background: #ffffff;
+  border: 1.5px solid #d8d8d8;
+  border-radius: 6px;
+}
+input:checked + label {
+  border-bottom: 1px solid #ff891c;
+}
+input[type="checkbox"]:checked {
+}
+#signUpFormAgree {
+  margin-top: 30px;
+}
+button {
+  background-color: #ff891c;
+  border: none;
+  color: #ffffff;
+  width: 320px;
+  height: 39px;
+  border-radius: 6px;
+  margin-top: 28px;
+}
+button:hover {
+  background-color: #ffffff;
+  border: 1.5px solid #d8d8d8;
+  color: #ff891c;
+  cursor: pointer;
 }
