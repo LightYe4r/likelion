@@ -169,11 +169,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 10px 0px 10px 0px;
-<<<<<<< HEAD
-  width: 50%;
-=======
   gap: 10px;
->>>>>>> aef62755db9db29d02e5077bc8eefe3f3dc1c6f0
 }
 #popFoodList {
   margin: 0px 0px 20px 0px;
