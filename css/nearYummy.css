@@ -1,1 +1,177 @@
 @import "main.css";
+
+#category {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px #f1f1f2 solid;
+  }
+  #cateTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 2px solid #cecece;
+    font-family: Noto Sans KR;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #515151;
+    padding-right: 20px;
+    margin-right: 20px;
+  }
+ #cateList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #515151;
+    word-spacing: 10px;
+ }
+ .cateMain {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    margin-right: 8px;
+    color: #ff891c;
+ }
+
+ #headercontents1{
+    width: 100%;
+    height: 100%;
+    background-color: #FFDCB2
+
+ }
+
+ #mainSection {
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+  }
+
+ #mainSectionTitleLarge {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align : top;
+    margin-top: 0px;
+    margin-right: 10px;
+    color: #6B6B6B
+ }
+
+
+
+
+#mainSectionTitleLarge1{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 80px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 10px;
+    align-items: center;
+    color: #868686
+    
+    
+}
+
+#mainSectionTitleSmall {
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 0px;
+  
+  vertical-align : top;
+  margin-right: 10px;
+  color: #9b9b9b;
+}
+#cateButton {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: 0.5px #8e8e8e solid;
+  padding: 1px 1px 1px 8px;
+}
+#cateButtonText {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #9b9b9b;
+
+
+}
+
+#orangemain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #FFDCB2
+}
+.foodList {
+}
+.foodListSort {
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+
+.foodListSort {
+    color: #6C6C6C;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+.showFoodList {
+  display: flex;
+  margin-top: 20px;
+}
+.showFoodListInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+.showFoodListInfoTitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: #6b6b6b;
+}
+.showFoodListInfoContent {
+  color: #9b9b9b;
+  margin-bottom: 50px;
+  gap: 1000px;
+  
+
+  color: #9b9b9b;
+  line-height: 20px;
+}
+.ingredients {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #9b9b9b;
+}
+
+.space{
+    font-size: 50px;
+    color: #FFDCB2
+
+}
